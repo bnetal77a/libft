@@ -6,23 +6,15 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 16:07:10 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/21 23:23:33 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/23 12:23:52 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_alpha(char *str)
-{
-	int	i;
+#include "ft_libft.h"
 
-	i = 0;
-	if (str[i] == '\0')
+int ft_isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z' ))
 		return (1);
-	while (str[i])
-	{
-		if ((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122))
-			i++;
-		else
-			return (0);
-	}
-	return (1);
+	return (0);
 }

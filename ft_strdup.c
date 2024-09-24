@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yalazrek <yalazrek@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/07 13:24:49 by yalazrek          #+#    #+#             */
-/*   Updated: 2024/09/07 17:55:41 by yalazrek         ###   ########.fr       */
+/*   Updated: 2024/09/22 01:52:01 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "ft_libft.h"
 
 int	ft_strlen(char *str)
 {

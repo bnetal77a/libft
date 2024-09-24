@@ -6,11 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/01 18:56:40 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/02 18:33:04 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/22 02:05:34 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "ft_libft.h"
 
 char	*ft_strcat(char *dest, char *src)
 {

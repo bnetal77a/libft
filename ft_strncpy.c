@@ -6,9 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 09:57:21 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/08/29 11:03:59 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/22 02:06:03 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_libft.h"
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {

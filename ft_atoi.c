@@ -6,11 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 20:51:55 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/21 23:23:43 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/22 01:51:17 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "ft_libft.h"
 
 int	ft_atoi(char *str)
 {
@@ -38,9 +38,3 @@ int	ft_atoi(char *str)
 	}
 	return (result * sign);
 }
-//result *= 10; --> fi while as7bi
-/*int main()
-{
-    char name[] = "  		\n--+---+12\034ab567";
-    printf("%d",ft_atoi(name));
-}*/
