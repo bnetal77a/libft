@@ -1,9 +1,6 @@
 #ignore .exe and .pdf
 
-*.pdf
-*.exe
-*.o
-*.out
-*.obj
-*.dll
-*.so
+.pdf
+.exe
+.DS_Store
+.vscode
