@@ -1,6 +1,6 @@
 #ignore .exe and .pdf
 
-.pdf
-.exe
+*.pdf
+*.exe
 .DS_Store
-.vscode
+.vscode/
