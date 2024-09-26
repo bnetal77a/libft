@@ -6,11 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 18:47:33 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/22 03:04:44 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/26 21:30:28 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_libft.h"
+#include "libft.h"
 
 char	*ft_toupper(char *str)
 {

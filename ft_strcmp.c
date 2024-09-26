@@ -6,11 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/01 16:40:44 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/22 02:05:37 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/26 21:32:59 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_libft.h"
+#include "libft.h"
 
 int	ft_strcmp(char *s1, char *s2)
 {

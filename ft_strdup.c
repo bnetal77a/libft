@@ -6,11 +6,11 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/07 13:24:49 by yalazrek          #+#    #+#             */
-/*   Updated: 2024/09/22 01:52:01 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/26 21:32:43 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_libft.h"
+#include "libft.h"
 
 int	ft_strlen(char *str)
 {

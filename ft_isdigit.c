@@ -6,13 +6,13 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 16:28:20 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/23 12:25:52 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/26 21:33:58 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_libft.h"
+#include "libft.h"
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
 		return (1);

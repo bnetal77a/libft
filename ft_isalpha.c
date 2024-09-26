@@ -6,13 +6,13 @@
 /*   By: mohben-t <mohben-t@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 16:07:10 by mohben-t          #+#    #+#             */
-/*   Updated: 2024/09/23 12:23:52 by mohben-t         ###   ########.fr       */
+/*   Updated: 2024/09/26 21:34:08 by mohben-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_libft.h"
+#include "libft.h"
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z' ))
 		return (1);
