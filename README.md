@@ -22,9 +22,9 @@ ft_isalnum - alphanumeric character test.
  
 ft_isalpha - alphabetic character test. 
 
-ft_islower * - lower-case character test.
+ft_islower - lower-case character test.
  
-ft_isupper * - upper-case character test.  
+ft_isupper - upper-case character test.  
 
 ft_isdigit - decimal-digit character test. 
 
@@ -55,8 +55,6 @@ ft_memmove - copy byte string.
 
 ft_memcpy - copy memory area.
 
-ft_memccpy - copy string until character found.
-
 #Functions from <string.h> library
 
 ft_strlen - find length of string.
@@ -67,13 +65,13 @@ ft_strrchr - locate character in string (last occurence).
 
 ft_strnstr - locate a substring in a string (size-bounded).
 
-ft_strncmp * - compare strings (size-bounded).
+ft_strncmp - compare strings (size-bounded).
 
-ft_strncpy * - copy strings (size-bounded).
+ft_strncpy - copy strings (size-bounded).
 
 ft_strdup - save a copy of a string (with malloc).
 
-ft_strncat * - concatenate strings (s2 into s1, size-bounded).
+ft_strncat - concatenate strings (s2 into s1, size-bounded).
 
 ft_strlcpy - size-bounded string copying.
 
